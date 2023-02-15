@@ -1,0 +1,63 @@
+:root{
+    --color-primary: rgb(255, 71, 71);
+    --color-secundary: #000;
+    --color-gray-dark: #737373;
+    --color-gray-medium: #545454;
+    --color-gray-light: #ff7676;
+    --font-primary: 'Montserrat', sans-serif;
+}
+
+#lp-container{
+    background-image: url('../img/cocinaa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#lp-container h3{
+    color: rgb(146, 35, 35);
+    font-size: 2rem;
+    margin: -30px;
+}
+#lp-container h1{
+    color: var(--color-secundary);
+    font-size: 8em;
+    margin: 0px;
+}
+#lp-container button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0px;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    transition: .1s;
+    background-color:   rgb(146, 35, 35);
+    color: aliceblue;
+}
+#lp-container button:hover{
+    font-size: 1.32rem;
+    margin-bottom: -1px;
+    height: 52px;
+    width: 152px;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 400px){
+    #lp-container h1{
+        font-size: 5em;
+        margin: 50px;
+    }
+    #lp-container button{
+        height: 50px;
+        width: 150px;
+    }
+}
