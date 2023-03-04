@@ -56,7 +56,7 @@ export default function Home(){
             <div className='home-nav'>
                 <div className='home-navbar-up'>
                     <SearchBar/>
-                    <h1>EL BODEGON</h1>
+                    <h1>Tú Receta</h1>
                     <Link to='/recipecreate'>
                         <button id='crear-receta'>
                             <h1>CREAR RECETA</h1>
