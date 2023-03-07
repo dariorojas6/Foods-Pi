@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export function getAllRecipes(){
     return async function(dispatch){
-        const resu =  await axios("https://foods-pi-production-ed1c.up.railway.app/recipes")
+        const resu =  await axios.get("https://foods-pi-production-ed1c.up.railway.app/recipes")
         dispatch({
             type: "GET_ALL_RECIPES",
             payload: resu.data
